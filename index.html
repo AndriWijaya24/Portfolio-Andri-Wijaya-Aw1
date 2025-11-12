@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo">A<span>ndri</span> Wijaya</a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li><a href="#home" class="nav_link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav_link">About</a></li>
+
+            <li><a href="#services" class="nav_link">Services</a></li>
+
+            <li><a href="#portfolio" class="nav_link">Portfolio</a></li>
+
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+          </ul>
+
+          <div class="nav_close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav_socials">
+          <a href="https://facebook.com/andri.steng.7" target="_blank" class="nav_socials-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+           <a href="https://twitter.com/" target="_blank" class="nav_socials-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+           <a href="https://linkedin.com/" target="_blank" class="nav_socials-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+           <a href="https://instagram.com/06ndri_" target="_blank" class="nav_socials-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <div class="nav_btns">
+          <a href="#contact" class="nav_link-btn btn">Let's Talk</a>
+
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home_container container grid">
+          <div class="home_content">
+            <span class="home_subtitle">Welcome To My Andri Wijaya</span>
+            <h1 class="home_title">
+              Hi I'm Andri Wijaya a <span>Student</span>
+            </h1>
+          </div>
+
+          <img src="assets/img/FtHome.jpg" alt="" class="home_img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <img src="assets/img/FtAbout.jpg" alt="" class="about_img">
+
+          <div class="about_content">
+            <h2 class="section_title">About Me</h2>
+
+            <p class="about_description">
+              Hello! I am an Informatics Engineering student who loves exploring the world of coding and technology. I enjoy creating simple projects such as websites, applications, or systems that can make daily tasks easier. This portfolio showcases my works and experiences throughout my learning and experimentation in the IT field.
+            </p>
+
+            <div class="tabs_btns">
+              <span class="tabs_btn tab_active" data-target="#skills">Main Skills</span>
+              <span class="tabs_btn" data-target="#award">Award</span>
+              <span class="tabs_btn" data-target="#experience">Experience</span>
+              <span class="tabs_btn" data-target="#education">Education & Certification</span>
+            </div>
+
+            <div class="tabs_content">
+              <div class="tabs_item tab_active" data-content id="skills">
+                <div class="tab_data grid">
+                  <p class="tabs_description">
+                    <span>Web Development</span>
+                    <span>Able to create simple and responsive websites using HTML, CSS, JavaScript, and Bootstrap.</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>UI/UX Design</span>
+                    <span>Enjoy designing simple and clean user interfaces using Figma or Canva.</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>Problem Solving</span>
+                    <span>Love finding solutions and learning new things whenever facing bugs or errors.</span>
+                  </p>
+                </div>
+              </div>
+
+                <div class="tabs_item" data-content id="award">
+                <div class="tab_data grid">
+                  <p class="tabs_description">
+                    <span>Web Design Competition Finalist </span>Campus Level
+                    <span>2024</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>Best Project Presentation</span> - Software Engineering Course
+                    <span>2023</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>Active Member of Informatics Student Association</span>HIMTI
+                    <span>2023</span>
+                  </p>
+                </div>
+                </div>
+
+                <div class="tabs_item" data-content id="experience">
+                <div class="tab_data grid">
+                  <p class="tabs_description">
+                    <span>Freelance Web Developer</span> Created simple landing pages and portfolio websites for friends and local clients
+                    <span>2024 - Present</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>IT Support Intern - Campus / Local Organization</span>Learned about system management and basic network troubleshooting.
+                    <span>2024 - Present</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>College Project - Web Attendance System</span>
+                    <span>Worked in a small team and learned how to collaborate using GitHub.</span>
+                  </p>
+                </div>
+                </div>
+            
+                <div class="tabs_item" data-content id="education">
+                <div class="tab_data grid">
+                  <p class="tabs_description">
+                    <span>Basic Web Programming</span> - Dicoding
+                    <span>2024</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>Introduction to Python</span> - Coursera
+                    <span>2024</span>
+                  </p>
+
+                  <p class="tabs_description">
+                    <span>Database Fundamentals</span> - Database Fundamentals
+                    <span>2023</span>
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section_title">My Awesome Service</h2>
+        <p class="section_description">
+          Here are some of the things I love to do and keep improving at during my study in Informatics Engineering.
+        </p>
+
+        <div class="services_container container grid">
+          <div class="services_item">
+            <i class="uil uil-brackets-curly services_icon"></i>
+
+            <h3 class="services_titles">Web Development</h3>
+            <p class="services_description">
+              I can design and build responsive websites using HTML, CSS, JavaScript, and Bootstrap — from simple landing pages to small web applications.
+            </p>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-vector-square services_icon"></i>
+
+            <h3 class="services_titles">UI/UX Design</h3>
+            <p class="services_description">
+              I create clean and user-friendly interface designs using tools like Figma or Canva, focusing on simple and modern layouts.
+            </p>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-code-branch services_icon"></i>
+
+            <h3 class="services_titles">Programming Projects</h3>
+            <p class="services_description">
+              I enjoy developing small software or system projects using Python, Java, or C++ as part of my learning and personal exploration.
+            </p>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-database services_icon"></i>
+
+            <h3 class="services_titles">Database Management</h3>
+            <p class="services_description">
+              I can design and manage databases using MySQL and Firebase for storing and organizing project data efficiently.
+            </p>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-wrench services_icon"></i>
+
+            <h3 class="services_titles">IT Support & Troubleshooting</h3>
+            <p class="services_description">
+              I help with technical setup, maintenance, and troubleshooting basic computer or software issues.
+            </p>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-wifi services_icon"></i>
+
+            <h3 class="services_titles">Networking & System Setup</h3>
+            <p class="services_description">
+              I have basic knowledge of setting up local networks, configuring routers, and understanding how computer systems connect and communicate.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">My Latest Project</h2>
+        <p class="section_description">
+          These are some projects I created while learning and experimenting with web development and programming.
+        </p>
+
+        <div class="portfolio_container container grid">
+          <div class="portfolio_item">
+            <img
+             src="assets/img/Prjct1.png"
+             alt=""
+             class="portfolio_img"
+            />
+
+            <div class="portfolio_data">
+              <p class="portfolio_subtitle">Web Development</p>
+              <h3 class="portfolio_title">Personal Portfolio Website</h3>
+              <p class="portfolio_description">
+                A responsive personal website created using HTML, CSS, and JavaScript to showcase my skills, projects, and contact information.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio_item">
+            <img
+             src="assets/img/Prjct2.png"
+             alt=""
+             class="portfolio_img"
+            />
+
+            <div class="portfolio_data">
+              <p class="portfolio_subtitle">App Development</p>
+              <h3 class="portfolio_title">To-Do List Application</h3>
+              <p class="portfolio_description">
+                A simple task management app built with JavaScript that helps users organize their daily activities easily.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio_item">
+            <img
+             src="assets/img/prjct3.jpeg"
+             alt=""
+             class="portfolio_img"
+            />
+
+            <div class="portfolio_data">
+              <p class="portfolio_subtitle">Database Project</p>
+              <h3 class="portfolio_title">Student Information System</h3>
+              <p class="portfolio_description">
+                A mini system developed using PHP and MySQL to manage student data such as names, IDs, and grades.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio_item">
+            <img
+             src="assets/img/prjct4.jpeg"
+             alt=""
+             class="portfolio_img"
+            />
+
+            <div class="portfolio_data">
+              <p class="portfolio_subtitle">Web Design</p>
+              <h3 class="portfolio_title">Company Profile Website</h3>
+              <p class="portfolio_description">
+                A modern and responsive company profile website that displays business information, services, and contact details.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio_item">
+            <img
+             src="assets/img/Prjct5.jpeg"
+             alt=""
+             class="portfolio_img"
+            />
+
+            <div class="portfolio_data">
+              <p class="portfolio_subtitle">System Development</p>
+              <h3 class="portfolio_title">Inventory Management System</h3>
+              <p class="portfolio_description">
+                A desktop-based inventory system created using Java and MySQL to record, edit, and manage product stock.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio_item">
+            <img
+             src="assets/img/Prjct6.jpg"
+             alt=""
+             class="portfolio_img"
+            />
+
+            <div class="portfolio_data">
+              <p class="portfolio_subtitle">Authentication System</p>
+              <h3 class="portfolio_title">Login & Registration Feature</h3>
+              <p class="portfolio_description">
+                A secure login and registration system with password encryption, developed to understand user authentication and database interaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact_container container grid">
+          <div class="contact_content">
+            <h2 class="section_title">Hire Me</h2>
+
+            <p class="contact_description">
+              I am available freelance work. Connect with me via phone:
+              <a href="tel:+6285774985362">+621234567890</a> or email:
+              <a href="mailto:admin@example.com">admin@gmail.com</a>
+            </p>
+
+            <form class="contact_form" id="contact-form">
+              <div class="contact_form-input">
+                <input
+                 type="text"
+                 name="name"
+                 placeholder="Your Name *"
+                 class="contact_input"
+                 id="contact-name"
+                />
+              </div>
+
+              <div class="contact_form-input">
+                <input
+                 type="email"
+                 name="email"
+                 placeholder="Your e-mail"
+                 class="contact_input"
+                 id="contact-email"
+                />
+              </div>
+
+              <div class="contact_form-input">
+                <input
+                 type="text"
+                 name="subject"
+                 placeholder="Write a Subject"
+                 class="contact_input"
+                 id="contact-subject"
+                />
+              </div>
+
+              <div class="contact_form-input">
+                <textarea name="message" id="contact-message" class="contact_input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn" />
+
+              <p class="error_message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/FtContact.jpg" alt="" class="contact_img">
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <a href="index.html" class="footer_logo">A<span>ndri</span> Wijaya</a>
+
+        <div class="footer_socials">
+          <a
+           href="https://facebook.com/" 
+           target="_blank" 
+           class="footer_socials-link"
+           >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+           <a
+           href="https://twitter.com/" 
+           target="_blank" 
+           class="footer_socials-link"
+           >
+            <i class="uil uil-twitter"></i>
+          </a>
+
+           <a
+           href="https://linkedin.com/" 
+           target="_blank" 
+           class="footer_socials-link"
+           >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+           <a
+           href="https://instagram.com/" 
+           target="_blank" 
+           class="footer_socials-link"
+           >
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer_copyright"> &copy; 2025 All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup_icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+     type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
